@@ -1,4 +1,4 @@
-package com.springboot.ingkellswith.springboot;
+package com.springboot.ingkellswith.springboot.web;
 
 import com.springboot.ingkellswith.springboot.web.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;
