@@ -41,7 +41,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
     secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
     bucket: springboot-practice # S3 버킷
-    key: ingkellswith-springboot.zip # 빌드 파일을 압축해서 전달, 빌드 파일 이름은 깃허브에 있는 프로젝트이름과 같음
+    key: ingkellswith-springboot.zip # 빌드 파일을 압축해서 전달
     bundle_type: zip
     application: springboot-practice # 웹 콘솔에서 등록한 CodeDeploy 어플리케이션
     deployment_group: springboot-practice-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룹
